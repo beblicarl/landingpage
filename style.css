@@ -4,12 +4,12 @@ body{
     box-sizing: border-box;
     background-color: #ffffff;
     width: 100%;
-    height: 150vh;
+    height: 140vh;
 }
 
 .blue{
     background-image: linear-gradient(to right, #200F10, #90A199);
-    height: 140vh;
+    height: 120vh;
     width: 90%;
     margin-top: 5vh;
     margin-left: 5%;
@@ -18,7 +18,7 @@ body{
 }
 .ivar{
     background-image: url("./img/ivar.jpg");
-    height: 120vh;
+    height: 100vh;
     width: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,15 +60,24 @@ nav{
     justify-content: space-evenly;
     padding-top: 30px;
     font-size: 15px;
+
 }
+
 .nav-middle a{
     text-decoration: none;
+
 }
 .nav-middle li{
     text-decoration: none;
     list-style: none;
     color: #ffffff;
     font-family: sans-serif;
+    transition: 40ms ease;
+}
+.nav-middle li:hover{
+    transform: scale(1.2);
+    border-bottom: 3px solid #200F10;
+    padding-bottom: 3px;
 }
 .nav-end{
     width: 20%;
@@ -108,6 +117,19 @@ hr{
     font-size: 50px;
     font-family: sans-serif;
     padding-left: 40px;
+    transition: 30ms ease;
+
+}
+.down-left h1:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 2px;
+}
+
+
+.down-left span{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 4px;
 }
 .down-left p{
     padding-left: 40px;
@@ -175,12 +197,21 @@ li{
     position: relative;
     padding-top: 40px;
     padding-left: 40px;
+    border-radius: 70px 59px 30px 60px;
 }
 .down-right-writings{
     position: absolute;
     margin-top: -200px;
     margin-left: 60px;
     color: #ffffff;  
+}
+.down-right-writings h1{
+    transition: 30ms ease;
+}
+.down-right-writings h1:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 2px;
 }
 #yellow{
     color: gold;
@@ -205,6 +236,12 @@ li{
     font-family: sans-serif;
     font-size: 17px;
     color: #ffffff;
+    transition: 30ms ease;
+}
+.lefty p:hover{
+    transform: scale(1.2);
+    
+
 }
 .righty{
     width: 50%;
@@ -216,6 +253,366 @@ li{
     padding-right: 100px;
     font-size: 30px;
     color: #ffffff;
+        
+}
+/*BOTTOM*/
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    gap: 4%;
+}
+.bottom-left{
+    background-color: rgba(0,0, 0, 0.5);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 30px;
     
-    
+}
+/*VIKINGS SQUAD*/
+.squad{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.squad img{
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 10px;
+    border-radius: 20px 20px 5px 20px;
+    transition: 25ms ease-in;
+}
+.squad img:hover{
+    transform: scale(1.1);
+}
+.vikings-squad{
+    padding-left: 10px;
+    margin-top: -10px;
+}
+.vikings-squad h1{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: sans-serif;
+    transition: 25ms ease-in;
+}
+.vikings-squad h1:hover{
+    transform: scale(1.1);
+}
+.vikings-squad p{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.vikings-squad span{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 3px;
+}
+.v-box{
+    display: flex;
+    gap: 5px;
+    transition: 25ms ease-in;
+}
+.v-box:hover{
+    transform: scale(1.1);
+}
+.one{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.two{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.three{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.four{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.five{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.six{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+.seven{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+.eight{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+.nine{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+.ten{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+.v-box h1{
+    margin-top: -10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #78C8BF;
+}
+.squad .fas{
+    font-size: 20px;
+    color: #78C8BF;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+
+.bottom-middle{
+    background-color: rgba(0,0, 0, 0.5);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+/*RESIVERS*/
+.resivers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.resivers img{
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 10px;
+    border-radius: 20px 20px 5px 20px;
+    transition: 25ms ease-in;
+}
+.resivers img:hover{
+    transform: scale(1.1);
+}
+.vikings-resivers{
+    padding-left: 10px;
+    margin-top: -10px;
+}
+.vikings-resivers h1{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: sans-serif;
+    transition: 25ms ease-in;
+}
+.vikings-resivers h1:hover{
+    transform: scale(1.1);
+
+}
+.vikings-resivers p{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.vikings-resivers span{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 3px;
+}
+.r-box{
+    display: flex;
+    gap: 5px;
+    transition: 25ms ease-in;
+}
+.r-box:hover{
+    transform: scale(1.1);
+}
+.oneone{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.twotwo{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.threethree{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.fourfour{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.fivefive{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.sixsix{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF;
+}
+.sevenseven{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF;
+}
+.eighteight{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF;
+}
+.ninenine{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF;
+}
+.tenten{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7)
+}
+.r-box h1{
+    margin-top: -10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #78C8BF;
+}
+.resivers .fas{
+    font-size: 20px;
+    color: #78C8BF;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+
+.bottom-right{
+    background-color: rgba(0,0, 0, 0.5);
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/*MEMORYS*/
+.memorys{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.memorys img{
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 10px;
+    border-radius: 20px 20px 5px 20px;
+    transition: 25ms ease-in;
+}
+.memorys img:hover{
+    transform: scale(1.1);
+}
+.vikings-memorys{
+    padding-left: 10px;
+    margin-top: -10px;
+}
+.vikings-memorys h1{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: sans-serif;
+    transition: 25ms ease-in;
+}
+.vikings-memorys h1:hover{
+    transform: scale(1.1);
+}
+.vikings-memorys p{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.vikings-memorys span{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 3px;
+}
+.m-box{
+    display: flex;
+    gap: 5px;
+    transition: 25ms ease-in;
+}
+.m-box:hover{
+    transform: scale(1.1);
+}
+.oneonem{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.twotwom{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.threethreem{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.fourfourm{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.fivefivem{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF ;
+}
+.sixsixm{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF;
+}
+.sevensevenm{
+    width: 10px;
+    height: 10px;
+    background-color: #78C8BF;
+}
+.eighteightm{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+.nineninem{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7);
+}
+.tentenm{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0, 0, 0.7)
+}
+.m-box h1{
+    margin-top: -10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #78C8BF;
+}
+.memorys .fas{
+    font-size: 20px;
+    color: #78C8BF;
+    margin-top: 5px;
+    margin-left: -15px;
 }
